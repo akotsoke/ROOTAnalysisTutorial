@@ -1,0 +1,67 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/batch_wait.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/downloadAndMerge.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/getDSInfo.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/getEventCounts.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/xAH_config.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/xAH_run.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/batch_wait.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/downloadAndMerge.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/getDSInfo.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/getEventCounts.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/xAH_config.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/xAH_run.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/batch_wait.py.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/downloadAndMerge.py.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/getDSInfo.py.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/getEventCounts.py.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/xAH_config.py.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/xAH_run.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xAODAnaHelpers"
+		],
+		"name" : "xAODAnaHelpersScriptsInstall"
+	}
+}

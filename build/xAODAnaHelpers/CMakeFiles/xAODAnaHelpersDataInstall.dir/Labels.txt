@@ -1,0 +1,30 @@
+# Target labels
+ xAODAnaHelpers
+# Source files and their labels
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2015-PreRecomm-13TeV-MC12-CDI-October23_v1.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2015-PreRecomm-13TeV-MC12-CDI_August3-v1.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-February14_v2.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-February5_prov.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-January13_v1.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/OnlineBSInfo
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/TauConf
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/metadata
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/xAH_adjectives
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/xAH_animals
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2015-PreRecomm-13TeV-MC12-CDI-October23_v1.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2015-PreRecomm-13TeV-MC12-CDI_August3-v1.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2016-Winter-13TeV-MC15-CDI-February14_v2.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2016-Winter-13TeV-MC15-CDI-February5_prov.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2016-Winter-13TeV-MC15-CDI-January13_v1.root
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/xAH_adjectives
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/xAH_animals
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2015-PreRecomm-13TeV-MC12-CDI-October23_v1.root.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2015-PreRecomm-13TeV-MC12-CDI_August3-v1.root.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-February14_v2.root.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-February5_prov.root.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-January13_v1.root.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/OnlineBSInfo.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/TauConf.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/metadata.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/xAH_adjectives.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/xAH_animals.rule

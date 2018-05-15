@@ -1,0 +1,7 @@
+{ decls }
+namespace CP {  }
+
+[ libMyAnalysisDict.so ]
+# List of selected classes
+class CP::JSSTutorialPFlowJetToolsAlgo
+header JSSTutorialPFlowJetToolsAlgo.h

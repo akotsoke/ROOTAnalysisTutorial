@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/MyAnalysis/MyAnalysis/JSSTutorialPFlowJetToolsAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/MyAnalysis/MyAnalysis/MyAnalysisDict.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/MyAnalysis/Root/JSSTutorialPFlowJetToolsAlgo.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyAnalysis"
+		],
+		"name" : "MyAnalysisLib"
+	}
+}

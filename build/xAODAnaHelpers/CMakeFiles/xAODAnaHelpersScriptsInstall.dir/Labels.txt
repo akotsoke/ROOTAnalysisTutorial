@@ -1,0 +1,21 @@
+# Target labels
+ xAODAnaHelpers
+# Source files and their labels
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/batch_wait.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/downloadAndMerge.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/getDSInfo.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/getEventCounts.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/xAH_config.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/xAH_run.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/batch_wait.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/downloadAndMerge.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/getDSInfo.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/getEventCounts.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/xAH_config.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/scripts/xAH_run.py
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/batch_wait.py.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/downloadAndMerge.py.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/getDSInfo.py.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/getEventCounts.py.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/xAH_config.py.rule
+/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/xAH_run.py.rule

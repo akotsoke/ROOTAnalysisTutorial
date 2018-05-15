@@ -1,0 +1,140 @@
+#include <MyAnalysis/JSSTutorialPFlowJetToolsAlgo.h>
+#include "PFlowUtils/RetrievePFOTool.h"
+#include "PFlowUtils/WeightPFOTool.h"
+//#include "PathResolver/PathResolver.h"
+#include "xAODTruth/TruthPileupEventContainer.h"
+#include "xAODTruth/TruthEventContainer.h"
+#include "xAODJet/JetAuxContainer.h"
+#include "xAODJet/JetAttributes.h"
+#include "TFile.h"
+//#include "TF2.h"
+#include "fastjet/ClusterSequence.hh"
+#include "fastjet/ClusterSequenceArea.hh"
+#include <fastjet/JetDefinition.hh>
+#include <fastjet/AreaDefinition.hh>
+#include "xAODCore/ShallowCopy.h"
+#include "xAODBase/IParticleHelpers.h"
+//#include <xAODAnaHelpers/HelperFunctions.h>
+//#include <xAODAnaHelpers/tools/ReturnCheck.h>
+
+//namespace CP {
+
+// this is needed to distribute the algorithm to the workers
+ClassImp(JSSTutorialPFLowJetToolsAlgo);
+
+JSSTutorialPFlowJetToolsAlgo :: JSSTutorialPFlowJetToolsAlgo( const std::string& name): asg::AsgTool( name )
+{
+  // Here you put any code for the base initialization of variables,
+  // e.g. initialize all pointers to 0.  Note that you should only put
+  // the most basic initialization here, since this method will be
+  // called on both the submission and the worker node.  Most of your
+  // initialization code will go into histInitialize() and
+  // initialize().
+  //msg().setName( "JSSTutorialPFlowJetToolsAlgo" );
+
+  //ATH_MSG_INFO( "Calling constructor");
+
+ // m_MyNewVariable = "";
+ // m_TreeName = "";
+}
+
+StatusCode JSSTutorialPFlowJetToolsAlgo::initialize(){
+
+  m_pfotool = new RetrievePFOTool("PFOtool");
+  ATH_CHECK(m_pfotool->initialize());
+  m_wpfotool = new WeightPFOTool("WPFOtool");
+  ATH_CHECK(m_wpfotool->initialize());
+
+  return StatusCode::SUCCESS;
+
+} //initialize
+
+StatusCode JSSTutorialPFlowJetToolsAlgo::finalize(){
+  return StatusCode::SUCCESS;
+} // finalize
+
+
+
+StatusCode JSSTutorialPFlowJetToolsAlgo::buildPFlowJets(){
+  const xAOD::VertexContainer* pvertices = 0;
+  ATH_CHECK( evtStore()->retrieve( pvertices, "PrimaryVertices" ) ); //retrieve primary vertices
+
+  const xAOD::PFOContainer* pfos = 0;
+  pfos = m_pfotool->retrievePFO(CP::EM,CP::all);  //retrieve pflow objects 
+
+  for(const auto& vx : *pvertices) { //loop over the primary vertices
+
+    xAOD::JetContainer* vertjets = new xAOD::JetContainer();
+    xAOD::JetAuxContainer* vertjetsAux = new xAOD::JetAuxContainer();
+
+    vertjets->setStore(vertjetsAux);
+    TString newname = "AntiKt4PFlowJets";
+    newname += vx->index();
+
+    ATH_CHECK( evtStore()->record(vertjets,newname.Data()));
+    ATH_CHECK( evtStore()->record(vertjetsAux,(newname+"Aux.").Data()));
+
+    std::vector<fastjet::PseudoJet> input_pfo; // define input for fastjet
+    std::set<int> charges;
+
+    for(const auto& pfo : *pfos) if (fabs(pfo->eta())<2.5 && pfo->charge()==0 && pfo->eEM()>0) { //loop for pflow objects with 0 charge
+      TLorentzVector corrected = pfo->GetVertexCorrectedEMFourVec(*vx); //correct 
+      input_pfo.push_back(fastjet::PseudoJet(corrected.Px(),corrected.Py(),corrected.Pz(),corrected.E())); //append to fastjet input vector the corrected pt
+    }
+
+    for(const auto& pfo : *pfos) if (pfo->charge()!=0 && pfo->track(0)->vertex()==vx) { //loop for pflow objects with =!0 charge
+      float pweight = 0;
+      m_wpfotool->fillWeight(*pfo,pweight);
+      fastjet::PseudoJet currconst(pfo->p4().Px()*pweight,pfo->p4().Py()*pweight,pfo->p4().Pz()*pweight,pfo->e()*pweight);
+      currconst.set_user_index(pfo->index());
+      charges.insert(pfo->index());
+      input_pfo.push_back(currconst);  //append to fastjet input vector the corrected pt
+    }
+
+    // Jet definition	
+    fastjet::JetDefinition jet_def(fastjet::antikt_algorithm,0.4);
+    fastjet::AreaDefinition area_def(fastjet::active_area_explicit_ghosts,fastjet::GhostedAreaSpec(fastjet::SelectorAbsRapMax(2.5)));
+    fastjet::ClusterSequenceArea clust_pfo(input_pfo,jet_def,area_def);
+
+    std::vector<fastjet::PseudoJet> inclusive_jets = sorted_by_pt(clust_pfo.inclusive_jets(0));
+
+    for (size_t i = 0; i < inclusive_jets.size(); i++) { //loop over the jets
+
+      xAOD::Jet* tempjet = new xAOD::Jet(); //why?
+      vertjets->push_back(tempjet);
+
+      xAOD::JetFourMom_t newArea(inclusive_jets[i].area_4vector().perp(),inclusive_jets[i].area_4vector().rap(),inclusive_jets[i].area_4vector().phi(),0);
+      tempjet->setAttribute("ActiveArea4vec",newArea);
+
+      xAOD::JetFourMom_t tempjetp4(inclusive_jets[i].perp(),inclusive_jets[i].rap(),inclusive_jets[i].phi(),0);
+      tempjet->setJetP4(tempjetp4);
+
+      tempjet->setJetP4("JetConstitScaleMomentum",tempjetp4);
+      tempjet->setJetP4("JetPileupScaleMomentum",tempjetp4);
+
+      TLorentzVector allcharge;
+      std::vector<fastjet::PseudoJet> constituents = inclusive_jets[i].constituents();
+      float chargedpart = 0;
+
+      for (size_t j = 0; j < constituents.size(); j++) {
+        if (charges.count(constituents[j].user_index())>=1) chargedpart += constituents[j].perp();
+      }
+      xAOD::JetFourMom_t chargejetp4(2.*chargedpart,inclusive_jets[i].rap(),inclusive_jets[i].phi(),0);
+      tempjet->setJetP4("JetChargedScaleMomentum",chargejetp4);
+    }
+    pfJES->modify(*vertjets);
+  }
+  return StatusCode::SUCCESS;
+} /* buildPFlowJets */
+
+StatusCode JSSTutorialPFlowJetToolsAlgo::execute ()
+{
+  // Here you do everything that needs to be done on every single
+  // events, e.g. read input variables, apply cuts, and fill
+  // histograms and trees.  This is where most of your actual analysis
+  // code will go.
+  return StatusCode::SUCCESS;
+}
+
+
+//} /* namespace CP */

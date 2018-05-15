@@ -1,0 +1,81 @@
+#ifndef MyAnalysis_JSSTutorialPFlowJETTOOLSALGO_H
+#define MyAnalysis_JSSTutorialPFlowJETTOOLSALGO_H
+
+//#include "AnaAlgorithm/AnaAlgorithm.h"
+#include "PATInterfaces/SystematicsTool.h"
+#include "AsgTools/AsgTool.h"
+#include "TRandom3.h"
+#include "TLorentzVector.h"
+#include "xAODBase/IParticleContainer.h"
+#include "xAODJet/JetContainer.h"
+#include "PFlowUtils/RetrievePFOTool.h"
+#include "PFlowUtils/WeightPFOTool.h"
+#include "JetCalibTools/JetCalibrationTool.h"
+#include "JetMomentTools/JetForwardJvtTool.h"
+#include "JetMomentTools/JetVertexTaggerTool.h"
+#include "xAODCaloEvent/CaloTowerContainer.h"
+
+#include <TH2.h>
+#include <string>
+
+
+
+//namespace CP {
+
+class JSSTutorialPFlowJetToolsAlgo: public asg::AsgTool  {
+   // ASG_TOOL_CLASS( TaggingUtilities,asg::IAsgTool)
+
+public:
+    JSSTutorialPFlowJetToolsAlgo( const std::string& name);
+
+    // configuration variables
+    //std::string m_MyNewVariable;
+    //std::string m_TreeName;
+
+    virtual StatusCode initialize();
+    virtual StatusCode finalize();
+    virtual StatusCode execute();
+
+    //Build pflow jets. 
+    //Structured as vector of jet containers, where each container corresponds to a vertex.
+    //Does active area calculation, and runs jet finding for every vertex, so this is expensive.
+    //In the future, will apply cuts on vertices before running jet finding and perhaps will 
+    //do faster area calculations.
+    virtual StatusCode buildPFlowJets();
+    //virtual StatusCode initialize();
+ 
+    //Group EMTopo jets. 
+    //Structured as vector of jet containers, where each container corresponds to a vertex.
+    //StatusCode buildEMTopoJets(bool allPU=false,TString vertexName="PrimaryVertices");
+
+    //StatusCode chooseNewPV(int vertexNumber);
+
+    //Do truth tagging. 
+    //If doPU is false, tagging does not use truth pileup jets.
+    //If doPU is true, required user to first call buildTruthPileupJets
+    //StatusCode truthTag(const xAOD::JetContainer *jets,bool doPU=true);
+    
+    //float towerWidth(const xAOD::Jet *jet,const xAOD::CaloTowerContainer *towers);
+    //void towerWidth(const xAOD::Jet *jet,const xAOD::CaloTowerContainer *towers,float &alpha,float &beta,float &gamma);
+
+private:
+
+    JSSTutorialPFlowJetToolsAlgo();
+
+    JetCalibrationTool *pfJES;//!
+    JetCalibrationTool *emJES;//!
+    CP::IRetrievePFOTool *m_pfotool;//!
+    CP::IWeightPFOTool *m_wpfotool;//!
+    JetForwardJvtTool *fjvt;//!
+    JetVertexTaggerTool* pjvtag;//!
+
+public: 
+
+    // this is needed to distribute the algorithm to the workers
+    ClassDef(JSSTutorialPFlowJetToolsAlgo, 1);
+
+};
+
+//} /* namespace CP */
+
+#endif /* MyAnalysis_JSSTutorialPFlowJETTOOLSALGO_H */

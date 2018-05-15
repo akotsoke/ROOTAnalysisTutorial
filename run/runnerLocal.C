@@ -1,0 +1,20 @@
+void runnerLocal() {
+  xAOD::Init().ignore();
+   EL::Job job;
+   job.useXAOD();
+   SH::SampleHandler sh;
+   SH::DiskListLocal listor("/afs/cern.ch/work/a/akotsoke/public/mc16_13TeV.361022.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ2W.merge.AOD.e3668_s3126_r10201_r10210/");
+   SH::scanDir(sh,listor,"*.root*");
+   sh.setMetaString("nc_tree","CollectionTree");
+   job.sampleHandler(sh);
+   EL::OutputStream output("output");
+   job.outputAdd(output);
+   EL::NTupleSvc *ntuple = new EL::NTupleSvc("output");
+   job.algsAdd(ntuple);
+   JSSTutorialPFlowJetToolsAlgo *alg = new JSSTutorialPFlowJetToolsAlgo;
+   job.algsAdd(alg);
+   job.options()->setDouble (EL::Job::optMaxEvents, 10);
+   EL::DirectDriver driver;
+   driver.options()->setDouble("nc_mergeOutput", 1);
+   driver.submit(job,"OutputDir");
+}

@@ -1,0 +1,3 @@
+# Regular package(s) built in WorkDir - 1.0.0
+MyAnalysis <unknown>
+xAODAnaHelpers <unknown>

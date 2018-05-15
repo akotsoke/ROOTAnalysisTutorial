@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/__init__.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/config.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/logging.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/timing.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/utils.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/python/__init__.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/python/config.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/python/logging.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/python/timing.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/python/utils.py"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/__init__.py.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/config.py.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/logging.py.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/timing.py.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/python/xAODAnaHelpers/utils.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xAODAnaHelpers"
+		],
+		"name" : "xAODAnaHelpersPythonInstall"
+	}
+}

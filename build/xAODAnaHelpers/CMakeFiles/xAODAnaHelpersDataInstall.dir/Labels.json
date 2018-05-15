@@ -1,0 +1,94 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2015-PreRecomm-13TeV-MC12-CDI-October23_v1.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2015-PreRecomm-13TeV-MC12-CDI_August3-v1.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-February14_v2.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-February5_prov.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-January13_v1.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/OnlineBSInfo"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/TauConf"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/metadata"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/xAH_adjectives"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/xAH_animals"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2015-PreRecomm-13TeV-MC12-CDI-October23_v1.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2015-PreRecomm-13TeV-MC12-CDI_August3-v1.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2016-Winter-13TeV-MC15-CDI-February14_v2.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2016-Winter-13TeV-MC15-CDI-February5_prov.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/2016-Winter-13TeV-MC15-CDI-January13_v1.root"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/xAH_adjectives"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/data/xAH_animals"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2015-PreRecomm-13TeV-MC12-CDI-October23_v1.root.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2015-PreRecomm-13TeV-MC12-CDI_August3-v1.root.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-February14_v2.root.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-February5_prov.root.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/2016-Winter-13TeV-MC15-CDI-January13_v1.root.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/OnlineBSInfo.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/TauConf.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/metadata.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/xAH_adjectives.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/data/xAODAnaHelpers/xAH_animals.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xAODAnaHelpers"
+		],
+		"name" : "xAODAnaHelpersDataInstall"
+	}
+}

@@ -1,0 +1,440 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/Algorithm.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/BJetEfficiencyCorrector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/BasicEventSelection.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/Cluster.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ClusterContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ClusterHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ClusterHistsAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/DebugTool.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/Electron.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ElectronCalibrator.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ElectronContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ElectronEfficiencyCorrector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ElectronHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ElectronHistsAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ElectronSelector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/EventInfo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/FatJet.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/FatJetContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/HLTJetGetter.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/HLTJetRoIBuilder.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/HelpTreeBase.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/HelperClasses.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/HelperFunctions.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/HistogramManager.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/IParticleHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/IParticleHistsAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/Jet.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/JetCalibrator.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/JetContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/JetHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/JetHistsAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/JetSelector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/METConstructor.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MessagePrinterAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MetContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MetHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MetHistsAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MinixAOD.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/Muon.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MuonCalibrator.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MuonContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MuonEfficiencyCorrector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MuonHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MuonHistsAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/MuonSelector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/OnlineBeamSpotTool.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/OverlapRemover.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/Particle.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ParticleContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/ParticlePIDManager.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/Photon.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/PhotonCalibrator.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/PhotonContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/PhotonHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/PhotonHistsAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/PhotonSelector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/Tau.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TauCalibrator.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TauContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TauEfficiencyCorrector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TauSelector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TrackContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TrackHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TrackHistsAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TrackPart.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TrackSelector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TracksInJetHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TreeAlgo.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TrigMatcher.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TruthContainer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TruthPart.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/TruthSelector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/VtxHists.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/xAODAnaHelpers/Writer.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/LinkDef.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/Algorithm.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/BJetEfficiencyCorrector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/BasicEventSelection.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ClusterContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ClusterHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ClusterHistsAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/DebugTool.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ElectronCalibrator.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ElectronContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ElectronEfficiencyCorrector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ElectronHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ElectronHistsAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ElectronSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/EventInfo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/FatJetContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/HLTJetGetter.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/HLTJetRoIBuilder.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/HelpTreeBase.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/HelperClasses.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/HelperFunctions.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/HistogramManager.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/IParticleHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/IParticleHistsAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/Jet.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/JetCalibrator.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/JetContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/JetHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/JetHistsAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/JetSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/METConstructor.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MessagePrinterAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MetContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MetHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MetHistsAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MinixAOD.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MuonCalibrator.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MuonContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MuonEfficiencyCorrector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MuonHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MuonHistsAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/MuonSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/OnlineBeamSpotTool.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/OverlapRemover.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/ParticlePIDManager.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/PhotonCalibrator.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/PhotonContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/PhotonHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/PhotonHistsAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/PhotonSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TauCalibrator.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TauContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TauEfficiencyCorrector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TauSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TrackContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TrackHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TrackHistsAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TrackSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TracksInJetHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TreeAlgo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TrigMatcher.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TruthContainer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/TruthSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/VtxHists.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/source/xAODAnaHelpers/Root/Writer.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/xAODAnaHelpers/CMakeFiles/xAODAnaHelpersLibCintDict.cxx",
+			"labels" : 
+			[
+				"xAODAnaHelpers"
+			]
+		},
+		{
+			"file" : "/afs/cern.ch/user/a/akotsoke/ROOTAnalysisTutorial/build/xAODAnaHelpers/CMakeFiles/xAODAnaHelpersLibCintDict.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xAODAnaHelpers"
+		],
+		"name" : "xAODAnaHelpersLib"
+	}
+}

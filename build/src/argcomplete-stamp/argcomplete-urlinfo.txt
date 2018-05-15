@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://pypi.python.org/packages/3b/db/c524f0d72842b44b179cc50d4257f1e72f447fef0919556e8b28a9b0f80f/argcomplete-1.9.2.tar.gz'
+tag='MD5=13243e0b88102f13f7537f5aa70a48c0'
